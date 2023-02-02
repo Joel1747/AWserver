@@ -64,7 +64,7 @@ service nginx restart
 ### Cambio usuario que ejecuta el proceso
 Si accedemos coon root y vamos a la configuración en el fichero _nginx.conf_ podremos cambiar el usuario que lanza el proceso del servicio.
 
-![]()
+![proceso](https://github.com/Joel1747/AWserver/blob/master/imagenes/Proceso.png)
 ## Creación sitios _nginx_ 
 
 Para ello crearemos dos carpetas distintas en las que guardaremos en cada una un html, despues entraremos conmo root y accederemos a la configuración y crearemos un fichero de configuracion en la carpeta _conf.d_  
