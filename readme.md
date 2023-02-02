@@ -50,7 +50,8 @@ Para ello debemos entrar en el visual, pulsar _f1_ el cual nos desplegará una v
 En este fichero podremos ver los host que hemos añadidio, a los cuales podremos cambiarle el nombre y hacer mas facil el acceso
 
 Poner bien la ruta absoluta en IdentityFile de la ubicación de la clave y comprobar que se conecta mediante ssh y el “host” que le hemos cambiado el nombre.
-![ConfUser]()
+
+![ConfUser](https://github.com/Joel1747/AWserver/blob/master/imagenes/sshConf.png)
 
 
 
