@@ -55,13 +55,16 @@ Poner bien la ruta absoluta en IdentityFile de la ubicación de la clave y compr
 
 ## Conexión mediante visual
 Pulsaremos _f1_,pondremos conectarnos con host y en función de que queramos hacen en este caso podemos o bien conectarnos con root para temas de configuración y esas cosas, o bien con ec2-user para crear los sitios y los htmls correspondientes.
-![ConexiónRoot]()
+![ConexiónRoot](https://github.com/Joel1747/AWserver/blob/master/imagenes/Conexi%C3%B3nRoot.png)
 
-Recordar cuando hagamos cambios en la configuración del nginx debemos reiniciar el sistema con el comando
+Recordar cuando hagamos cambios en la configuración del nginx debemos reiniciar el sistema con el comando.
 ~~~
 service nginx restart
 ~~~
+### Cambio usuario que ejecuta el proceso
+Si accedemos coon root y vamos a la configuración en el fichero _nginx.conf_ podremos cambiar el usuario que lanza el proceso del servicio.
 
+![]()
 ## Creación sitios _nginx_ 
 
 Para ello crearemos dos carpetas distintas en las que guardaremos en cada una un html, despues entraremos conmo root y accederemos a la configuración y crearemos un fichero de configuracion en la carpeta _conf.d_  
