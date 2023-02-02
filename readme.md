@@ -1,15 +1,19 @@
 # AW Instalación y configuración
 Primero deberemos crear una instantanea y le daremos a _lanzar una instantanea_ 
+
 ![instantanea1](https://github.com/Joel1747/AWserver/blob/master/imagenes/instantanea.png)
 
 Lo siguente será generar las claves y seleccionar el tipo de instancia
+
 ![instantanea2](https://github.com/Joel1747/AWserver/blob/master/imagenes/instantanea2.png)
 
 y por último tendremos que lanzar la instantanea
+
 ![instantanea3](https://github.com/Joel1747/AWserver/blob/master/imagenes/instantanea3.png)
 
 ## Conexión con la instancia
 seleccionaremos la instancia y le daremos a conectar,donde nos llevará a la siguente ventana en la cual le daremos a _conexion mediante ssh_
+
 ![Conectar](https://github.com/Joel1747/AWserver/blob/master/imagenes/Conectar.png)
 
 Iremos a nuestro terminal ssh y compiaremos la linea que pone ejemplo e indicaremos la ruta donde hemos guardado la clave privada.
@@ -40,7 +44,7 @@ Podremos entrar con root sin problemas ya
 ## Entrar desde visual code
 Para ello debemos entrar en el visual, pulsar _f1_ el cual nos desplegará una ventanita en la cual pondremos _añadir nuevo host_ y nos pedirá dicho host, pondremos el comando que usamos para entrar mediante shh.
 
-![visual]()
+![visual](https://github.com/Joel1747/AWserver/blob/master/imagenes/visual.png)
 
 
 ## Creación sitios _nginx_ 
@@ -63,4 +67,5 @@ server {
 ~~~ 
 
 ### Prueba funcionamiento
+
 ![Foto prueba](https://github.com/Joel1747/AWserver/blob/master/imagenes/Captura%20de%20pantalla%20de%202023-02-02%2016-59-19.png)
