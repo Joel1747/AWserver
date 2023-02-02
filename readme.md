@@ -53,7 +53,14 @@ Poner bien la ruta absoluta en IdentityFile de la ubicación de la clave y compr
 
 ![ConfUser](https://github.com/Joel1747/AWserver/blob/master/imagenes/sshConf.png)
 
+## Conexión mediante visual
+Pulsaremos _f1_,pondremos conectarnos con host y en función de que queramos hacen en este caso podemos o bien conectarnos con root para temas de configuración y esas cosas, o bien con ec2-user para crear los sitios y los htmls correspondientes.
+![ConexiónRoot]()
 
+Recordar cuando hagamos cambios en la configuración del nginx debemos reiniciar el sistema con el comando
+~~~
+service nginx restart
+~~~
 
 ## Creación sitios _nginx_ 
 
